@@ -1,4 +1,5 @@
-# Nock VCR Recorder Mocha [![Build Status](https://travis-ci.org/vizeat/nock-vcr-recorder-mocha.svg?branch=master)](https://travis-ci.org/vizeat/nock-vcr-recorder-mocha) [![codecov](https://codecov.io/gh/vizeat/nock-vcr-recorder-mocha/branch/master/graph/badge.svg)](https://codecov.io/gh/vizeat/nock-vcr-recorder-mocha) [![npm version](https://badge.fury.io/js/nock-vcr-recorder-mocha.svg)](https://badge.fury.io/js/nock-vcr-recorder-mocha) [![Dependency Status](https://david-dm.org/vizeat/nock-vcr-recorder-mocha.svg)](https://david-dm.org/vizeat/nock-vcr-recorder-mocha)
+# Nock VCR Recorder Mocha
+[![Build Status](https://travis-ci.org/vizeat/nock-vcr-recorder-mocha.svg?branch=master)](https://travis-ci.org/vizeat/nock-vcr-recorder-mocha) [![codecov](https://codecov.io/gh/vizeat/nock-vcr-recorder-mocha/branch/master/graph/badge.svg)](https://codecov.io/gh/vizeat/nock-vcr-recorder-mocha) [![npm version](https://badge.fury.io/js/nock-vcr-recorder-mocha.svg)](https://badge.fury.io/js/nock-vcr-recorder-mocha) [![Dependency Status](https://david-dm.org/vizeat/nock-vcr-recorder-mocha.svg)](https://david-dm.org/vizeat/nock-vcr-recorder-mocha)
 
 
 ## About
