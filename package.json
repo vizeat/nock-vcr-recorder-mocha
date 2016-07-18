@@ -1,5 +1,5 @@
 {
-  "name": "nock-vcr-recorder-mocha",
+  "name": "@albanv/nock-vcr-recorder-mocha",
   "version": "0.3.2",
   "description": "Wrapper around nock-vcr-recorder to simplify creating vcr cassettes in mocha.",
   "main": "index.js",
@@ -26,7 +26,7 @@
   "homepage": "https://github.com/poetic/nock-vcr-recorder-mocha",
   "dependencies": {
     "bluebird": "^3.4.1",
-    "nock-vcr-recorder": "^0.1.3"
+    "@albanv/nock-vcr-recorder": "^0.1.4"
   },
   "devDependencies": {
     "express": "^4.14.0",
