@@ -1,6 +1,6 @@
 'use strict';
 
-var vcr      = require('nock-vcr-recorder');
+var vcr      = require('@albanv/nock-vcr-recorder');
 var describe = require('./lib/describe');
 var it       = require('./lib/it');
 
