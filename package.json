@@ -1,6 +1,6 @@
 {
   "name": "@albanv/nock-vcr-recorder-mocha",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "description": "Wrapper around nock-vcr-recorder to simplify creating vcr cassettes in mocha.",
   "main": "index.js",
   "scripts": {
