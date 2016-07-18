@@ -1,14 +1,14 @@
----
 language: node_js
-
-sudo: false
-
-cache:
-  directories:
-    - node_modules
-
-install:
-  - npm install
-
+node_js:
+  - "6"
+  - "6.1"
+  - "5"
+  - "5.1"
+  - "4"
+  - "4.2"
+  - "4.1"
+  - "4.0"
 script:
-  - npm test
+  - npm run coverage
+after_success:
+  - bash <(curl -s https://codecov.io/bash)

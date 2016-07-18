@@ -1,15 +1,16 @@
-# Nock VCR Recorder Mocha [![Build Status](https://travis-ci.org/poetic/nock-vcr-recorder-mocha.svg?branch=master)](https://travis-ci.org/poetic/nock-vcr-recorder-mocha)
+# Nock VCR Recorder Mocha [![Build Status](https://travis-ci.org/vizeat/nock-vcr-recorder-mocha.svg?branch=master)](https://travis-ci.org/vizeat/nock-vcr-recorder-mocha) [![codecov](https://codecov.io/gh/vizeat/nock-vcr-recorder-mocha/branch/master/graph/badge.svg)](https://codecov.io/gh/vizeat/nock-vcr-recorder-mocha)
+
 
 ## About
 
 A wrapper around
-[nock-vcr-recorder](https://github.com/poetic/nock-vcr-recorder) to simplify
+[nock-vcr-recorder](https://github.com/vizeat/nock-vcr-recorder) to simplify
 creating vcr cassettes in mocha.
 
 ## Install
 
 ```bash
-npm install --save-dev nock-vcr-recorder-mocha
+npm install --save-dev @albanv/nock-vcr-recorder-mocha
 ```
 
 ## Usage
@@ -118,4 +119,3 @@ please open an issue or a pull requests and we'll work on getting them in.
 [@poeticsystems](http://twitter.com/poeticsystems)
 
 [Licensed under the MIT license](http://www.opensource.org/licenses/mit-license.php)
-
