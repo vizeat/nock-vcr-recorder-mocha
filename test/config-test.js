@@ -2,7 +2,6 @@
 
 var assert     = require('assert');
 var request    = require('request');
-var RSVP       = require('rsvp');
 var vcr        = require('../');
 var realVcr    = require('nock-vcr-recorder');
 
@@ -48,4 +47,3 @@ describe('config - it', function() {
     assert.equal(cassette.length, 0);
   });
 });
-

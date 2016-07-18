@@ -1,10 +1,11 @@
 'use strict';
 
-var assert  = require('assert');
-var RSVP    = require('rsvp');
-var request = require('request');
-var app     = require('./app');
-var vcr     = require('../');
+var assert   = require('assert');
+var bluebird = require('rsvp');
+var request  = require('request');
+var rp       = require('request-promise');
+var app      = require('./app');
+var vcr      = require('../');
 
 vcr.describe('describe', function() {
   before(function(done) {
@@ -16,7 +17,7 @@ vcr.describe('describe', function() {
   });
 
   it('saves a cassette - promise', function() {
-    return RSVP.denodeify(request)('http://localhost:4007/test');
+    return rp('http://localhost:4007/test');
   });
 
   it('doesnt save with no requests', function() {
@@ -29,4 +30,3 @@ vcr.describe('describe', function() {
     assertNotCassette('describe/doesnt save with no requests');
   });
 });
-

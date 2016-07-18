@@ -1,8 +1,8 @@
 'use strict';
 
 var assert  = require('assert');
-var RSVP    = require('rsvp');
 var request = require('request');
+var rp      = require('request-promise');
 var app     = require('./app');
 var vcr     = require('../');
 
@@ -16,7 +16,7 @@ describe('it', function() {
   });
 
   vcr.it('saves a cassette - promise', function() {
-    return RSVP.denodeify(request)('http://localhost:4006/test');
+    return rp('http://localhost:4006/test');
   });
 
   it('doesnt save with no requests', function() {
@@ -29,4 +29,3 @@ describe('it', function() {
     assertNotCassette('it/doesnt save with no requests');
   });
 });
-
