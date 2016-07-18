@@ -1,7 +1,6 @@
 'use strict';
 
 var assert   = require('assert');
-var bluebird = require('rsvp');
 var request  = require('request');
 var rp       = require('request-promise');
 var app      = require('./app');
